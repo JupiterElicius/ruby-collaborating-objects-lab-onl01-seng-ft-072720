@@ -21,7 +21,7 @@ class Artist
   end
 
   def find(name)
-    @@all.find
+    @@all.find{|name| 
   end
 
   def self.find_or_create_by_name(name)
